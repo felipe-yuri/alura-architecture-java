@@ -1,4 +1,4 @@
-package br.com.alura.domain.entities;
+package br.com.alura.domain.entities.student;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

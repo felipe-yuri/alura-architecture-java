@@ -2,6 +2,8 @@ package br.com.alura.domain.entities;
 
 import java.time.LocalDateTime;
 
+import br.com.alura.domain.entities.student.StudentEntity;
+
 public class Indication {
 
 	private StudentEntity indicated;

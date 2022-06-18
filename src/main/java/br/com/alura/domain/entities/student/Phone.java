@@ -1,4 +1,4 @@
-package br.com.alura.entities;
+package br.com.alura.domain.entities.student;
 
 public class Phone {
 
