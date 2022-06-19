@@ -1,13 +1,9 @@
-package br.com.alura.domain.entities;
+package br.com.alura.domain.entities.student;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
-import br.com.alura.entities.CPF;
-import br.com.alura.entities.Email;
-import br.com.alura.entities.StudentEntity;
 
 class StudentEntityTest {
 	private static StudentEntity student;

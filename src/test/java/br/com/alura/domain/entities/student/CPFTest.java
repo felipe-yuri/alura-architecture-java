@@ -1,10 +1,9 @@
-package br.com.alura.domain.entities;
+package br.com.alura.domain.entities.student;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.Test;
-
-import br.com.alura.entities.CPF;
 
 class CPFTest {
 

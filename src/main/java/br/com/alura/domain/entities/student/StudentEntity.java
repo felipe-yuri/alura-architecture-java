@@ -30,4 +30,12 @@ public class StudentEntity {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	public String getCpf() {
+		return cpf.getCPF();
+	}
+	
+	public String getEmail() {
+		return email.getEmail();
+	}
 }

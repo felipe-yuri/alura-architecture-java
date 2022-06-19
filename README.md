@@ -1,7 +1,7 @@
 # alura-architecture-java
-Introduction to clean architecture 
+Introdução à arquitetura limpa
 
-## Which is?
+## O que é?
 Este projeto tem o objetivo de mostrar um simples modelo de  arquitetura limpa, onde será feito matricula de alunos, cadastrar telefones dos alunos e indicação de alunos, entre outros.
 
 ## Frameworks / Tecnologias
@@ -9,7 +9,7 @@ Este projeto tem o objetivo de mostrar um simples modelo de  arquitetura limpa, 
 - Maven 3
 - Eclipse
 
-## Clean Architecture Diagram
+## Diagrama
 ![Clean Architecture](./images/clean.jpg)
 
 ## Vantagens
@@ -26,6 +26,9 @@ Entidades possuem uma identidade única, enquanto VOs são considerados iguais, 
 
 ## Modelo de arquitetura da aplicação
 ![Modelo de arquitetura da aplicação](./images/model.jpg)
+
+- O foco é o domínio
+- O domínio não pode acessar as camadas externas, mas as camadas externas podem acessar o domínio.
 
 Qual a ordem em que as dependências deveriam acontecer nas camadas de um projeto?
 >Sempre para dentro (camadas de fora podem depender das de dentro)
