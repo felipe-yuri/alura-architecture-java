@@ -14,9 +14,9 @@ Este projeto tem o objetivo de mostrar um simples modelo de  arquitetura limpa, 
 
 ## Vantagens
 - Isolar o código de domínio da aplicação
-- Inversão de dpendências
+- Inversão de dependências
 - Favorece boas práticas de orientação a objetos
-- Código de domínio com alta "testabilidade"
+- Código de domínio com alta "testabilidade", ou seja, fica mais fácil fazer os testes unitários.
 - Independência de frameworks e detalhes de infraestrutura
 
 ## Diferença entre Entidade e VO
@@ -39,3 +39,7 @@ Ao desenvolver um sistema complexo, o domínio deve ser o foco. Por isso, ele é
 
 O conceito de modelarmos a nossa aplicação pensando primeiramente no domínio é chamado de Domain Driven Design, ou design orientado a domínio.
 ```
+
+## Dúvidas
+- Classes Handler são poderiam ser classe Service ?
+- Classes DTO ...pesquisar sobre.

@@ -7,6 +7,7 @@ public class StudentEntity {
 	private CPF cpf;
 	private String name;
 	private Email email;
+	private String password;
 	private List<Phone> phones = new ArrayList<>();
 	
 	public StudentEntity(CPF cpf, String name, Email email) {
